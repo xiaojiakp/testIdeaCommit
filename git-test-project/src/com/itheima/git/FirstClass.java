@@ -11,8 +11,9 @@ public class FirstClass {
         test();
     }
 
-    public static void test(){
+    private static void test(){
         int i = 0;
         i += 10;
+        System.out.println(i);
     }
 }
